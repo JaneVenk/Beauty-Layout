@@ -1,0 +1,89 @@
+@import "./variables.scss";
+
+// Top section style start
+
+.innerBlockTopSection{
+    width: $innerBlockWidthLaptop;
+}
+
+// Top section style end
+
+
+// Banner section style start
+
+#bannerSection{
+    height: 504px;
+    background-position: -300px;
+}
+
+.innerBlockBannerSection{
+    width: $innerBlockWidthLaptop;
+}
+
+// Banner section style end
+
+
+// Special Offers Section style start
+
+#specialOffersSection{
+    width: $innerBlockWidthLaptop;
+}
+
+.offer{
+    width: 200px;
+}
+
+// Special Offers Section style end
+
+
+// Feedback section style start
+
+#feesbackSection{
+    width: $innerBlockWidthLaptop;
+    height: 212px;
+    margin: 0 auto 132px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+}
+
+.feedback{
+    width: 440px;
+}
+
+#envelope{
+    width: 70px;
+    height: 70px;
+    margin-top: calc(71px - 35px);
+}
+
+// Feedback section style end
+
+
+// Footer style start
+
+.contactsDiv{
+    width: $innerBlockWidthLaptop;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:space-between;
+}
+
+.address{
+    position: static;
+    top:0;
+    left:0;
+}
+
+.getInTouchFooter{
+    position: static;
+    right: 0;
+    top:0;
+}
+
+.additionalInformationText{
+    width: $innerBlockWidthLaptop;
+}
+
+// Footer style end

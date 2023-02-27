@@ -1,0 +1,144 @@
+@import "./variables.scss";
+
+// Top section style start
+
+.innerBlockTopSection{
+    width: $innerBlockWidthTablet;
+}
+
+.topMenu{
+    width: 600px;
+}
+
+// Top section style end
+
+// Banner section style start
+
+#bannerSection{
+    height: 404px;
+    background-size: 185%;
+    background-position: -250px;
+}
+
+.innerBlockBannerSection{
+    width: $innerBlockWidthTablet;
+}
+
+// Banner section style end
+
+// Special Offers Section style start
+
+#specialOffersSection{
+    width: $innerBlockWidthTablet;
+    height: fit-content;
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+.offers{
+    width: 100%;
+    height: fit-content;
+    margin-top: 38px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+}
+
+.offer{
+    width: 255px;
+    margin-bottom: 55px;
+}
+
+// Special Offers Section style end
+
+// Feedback section style start
+
+#feesbackSection{
+    width: $innerBlockWidthTablet;
+    height: fit-content;
+    align-items: center;
+    justify-content:center;
+    margin-bottom: 70px;
+
+}
+
+.feedback{
+    height: 212px;
+    width: 440px;
+    margin-bottom: 30px;
+
+}
+
+#envelope{
+    width: 70px;
+    height: 70px;
+    margin-top: calc(71px - 35px);
+}
+
+// Feedback section style end
+
+// Footer style start
+
+.contactsDiv{
+    width: $innerBlockWidthTablet;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:space-between;
+}
+
+.socials{
+    width: 150px;
+}
+
+.social{
+    width: 25px;
+    height: 25px;
+    background-size: 100%;
+}
+
+.social img{
+    width: 15px;
+    height: 15px;
+    margin: auto auto;
+}
+
+.address{
+    position: static;
+    top:0;
+    left:0;
+    width: fit-content;
+}
+
+.addressText{
+    font-size: 12px;
+}
+
+.getInTouchFooter{
+    width: 250px;
+    position: static;
+    right: 0;
+    top:0;
+}
+
+.getInTouchFooter .topTelephone{
+    font-size: 12px;
+}
+
+.getInTouchFooter .topButton{
+    width: 130px;
+    height: 30px;
+    font-size: 12px;
+}
+
+.additionalInformation{
+    height: 100px;
+}
+
+.additionalInformationText{
+    width: $innerBlockWidthTablet;
+    flex-direction: column;
+    justify-content:space-evenly;
+}
+
+// Footer style end

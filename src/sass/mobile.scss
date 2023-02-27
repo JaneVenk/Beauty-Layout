@@ -1,0 +1,170 @@
+@import "./variables.scss";
+
+// Top section style start
+
+#topSection{
+    height: fit-content;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.innerBlockTopSection{
+    width: $innerBlockWidthMobile;
+}
+
+.topPart{
+    padding-top: 0;
+    height: 150px;
+    flex-direction: column;
+    justify-content:space-between;
+}
+
+.topMenu{
+    margin-bottom: 0;
+    width: $innerBlockWidthMobile;
+
+}
+
+.topLink{
+    font-size: $littleFontSize;
+}
+
+// Top section style end
+
+// Banner section style start
+
+#bannerSection{
+    height: 304px;
+    background-position: -200px;
+}
+
+.innerBlockBannerSection{
+    width: $innerBlockWidthMobile;
+}
+
+// Banner section style end
+
+// Special Offers Section style start
+
+#specialOffersSection{
+    width: $innerBlockWidthMobile;
+    height: fit-content;
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+.offers{
+    width: 100%;
+    height: fit-content;
+    margin-top: 38px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+}
+
+.offer{
+    width: 255px;
+    margin-bottom: 55px;
+}
+
+// Special Offers Section style end
+
+// Feedback section style start
+
+#feesbackSection{
+    width: $innerBlockWidthMobile;
+    height: fit-content;
+    margin: 0 auto 98px auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content:space-between;
+}
+
+.feedback{
+    width: 440px;
+}
+
+#envelope{
+    width: 70px;
+    height: 70px;
+    margin-top: calc(71px - 35px);
+}
+
+// Feedback section style end
+
+// Footer style start
+
+.contacts{
+    height: fit-content;
+}
+
+.contactsDiv{
+    width: $innerBlockWidthMobile;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-evenly;
+}
+
+.socials{
+    width: 150px;
+}
+
+.social{
+    width: 25px;
+    height: 25px;
+    background-size: 100%;
+}
+
+.social img{
+    width: 15px;
+    height: 15px;
+    margin: auto auto;
+}
+
+.address{
+    position: static;
+    top:0;
+    left:0;
+    width: fit-content;
+}
+
+.addressText{
+    font-size: 12px;   
+}
+
+.getInTouchFooter{
+    width: 250px;
+    position: static;
+    right: 0;
+    top:0;
+}
+
+.getInTouchFooter .topTelephone{
+    font-size: 12px;
+}
+
+.getInTouchFooter .topButton{
+    width: 130px;
+    height: 30px;
+    font-size: 12px;
+}
+
+.additionalInformation{
+    height: 100px;
+}
+
+.additionalInformationText{
+    width: $innerBlockWidthMobile;
+    flex-direction: column;
+    justify-content:space-evenly;
+}
+
+.additionalInformationTextP{
+    text-align: center;
+    width: 320px;
+}
+
+// Footer style end

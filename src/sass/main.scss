@@ -1,0 +1,455 @@
+@import "./fonts.scss";
+@import "./variables.scss";
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+
+body{
+    background-color:$backgroundBodyColor;
+}
+
+header{
+    width: 100%;
+    height: 50px;
+}
+
+nav{
+    width: 447px;
+    height: 50px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:space-between;
+}
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+    color: $darkColor;
+    font-family: Roboto400;
+    font-size: $littleFontSize;
+    line-height: $littleLineHeight;
+}
+
+a:hover{
+    transform:scale(1.2);
+}
+
+button{
+    cursor: pointer;
+}
+
+button:hover{
+    box-shadow: 0 5px 7px 0 rgba(0,0,0,0.24),0 6px 10px 0 rgba(0,0,0,0.19);
+}
+
+// Top section style start
+
+#topSection{
+    width: 100%;
+    height: 199px;
+    position: relative;
+    background-color: $whiteColor;
+}
+
+.innerBlockTopSection{
+    width: $innerBlockWidth;
+    height: fit-content;
+    margin: 0 auto;
+    position: relative;
+}
+
+.topPart{
+    width: 100%;
+    height: fit-content;
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:space-between;
+}
+
+.logo{
+    width: 258px;
+    height: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:space-between;
+}
+
+.logoText{
+    color: $mainColor;
+    font-family: Roboto700;
+    font-size: 36px;
+    letter-spacing: 3px;
+    line-height: 42.19px;
+}
+
+.getInTouch{
+    width: 337px;
+    height: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:space-between;
+}
+
+.topTelephone{
+    font-family: Roboto400;
+    font-size: $mediumFontSize;
+    line-height: $mediumLineHeight;
+    color: $blackColor;
+}
+
+.topButton{
+    width: 170px;
+    height: 40px;
+    background-color:$whiteColor;
+    border: 2px solid $mainColor;
+    border-radius: 40px;
+    font-size: $littleFontSize;
+    line-height: $littleLineHeight;
+    font-family: Roboto400;
+    color: $blackColor;
+}
+
+.topLine{
+    width: 100%;
+    height: 0;
+    margin-top: 20px;
+    border: 1px solid $backgroundBodyColor;
+}
+
+.topMenu{
+    width: 675px;
+    height: 19px;
+    margin: 30px auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:space-between;
+}
+
+.topLink{
+    color: $blackColor;
+    font-size: $mediumFontSize;
+    line-height: $mediumLineHeight;
+}
+
+// Top section style end
+
+// Banner section style start
+
+#bannerSection{
+    width: 100%;
+    height: 604px;
+    background-image: url("../images/banner.png");
+    background-position: -200px;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.innerBlockBannerSection{
+    width: $innerBlockWidth;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.bannerInfo{
+    width: 308px;
+    height: 219px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content:space-between;
+}
+
+.bannerTitle{
+    color: $whiteColor;
+    font-family: Roboto700;
+    font-size: 48px;
+}
+
+.bannerText{
+    color: $whiteColor;
+    font-family: Roboto400;
+    font-size: $littleFontSize;
+    line-height: 20px;
+    text-align: left;
+}
+
+.bannerButton{
+    width: 170px;
+    height: 40px;
+    background-color: transparent;
+    border: 2px solid $whiteColor;
+    border-radius: 40px;
+    font-size: $littleFontSize;
+    line-height: $littleLineHeight;
+    font-family: Roboto400;
+    color: $whiteColor;
+}
+
+// Banner section style end
+
+// Special Offers Section style start
+
+#specialOffersSection{
+    width: $innerBlockWidth;
+    height: 430px;
+    margin: 80px auto 100px auto;
+}
+
+.specialOffersTitle{
+    color: $blackColor;
+    font-family: Roboto700;
+    font-size: 24px;
+}
+
+.offers{
+    width: 100%;
+    height: fit-content; 
+    margin-top: 38px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:space-between;
+}
+
+.offer{
+    height: 363px;
+    width: 255px;
+    padding: 25px 0;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:space-between;
+
+    background-color: $whiteColor;
+}
+
+.offerText{
+    width: 195px;
+    height: 33px;
+    text-align: center;
+}
+
+.offerText p{
+    color: $darkColor;
+    font-family: Roboto400;
+    font-size: $littleFontSize;
+    line-height: $offerFeedbackLineHeight;
+}
+
+.offerPrice{
+    font-family: Roboto500;
+    font-size: 21px;
+    letter-spacing: 1px;
+}
+
+.offerButton{
+    width: 130px;
+    height: 35px;
+    background-color: $mainColor;
+    color: $whiteColor;
+    border-radius: 40px;
+    border: none;
+    font-family: Roboto400;
+    font-size: $littleFontSize;
+    line-height: $littleLineHeight;
+    letter-spacing: 1px;
+
+}
+
+// Special Offers Section style end
+
+// Feedback section style start
+
+#feesbackSection{
+    width: $innerBlockWidth;
+    height: 212px;
+    margin: 0 auto 132px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+}
+
+.feedback{
+    width: 540px;
+    height: 100%;
+    padding: 35px 45px 35px 40px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    position: relative;
+
+    background-color:$mainColor;
+}
+
+.feedbackTitle{
+    font-family: Roboto700;
+    font-size: 18px;
+    line-height: 21.09px;
+    color: $whiteColor;
+}
+.feddbackTextdraw{
+    width: 231px;
+    height: 40px;
+}
+
+.feddbackTextshops{
+    width: 141px;
+    height: 40px;
+}
+
+.feddbackTextP{
+    font-family: Roboto400;
+    font-size: $littleFontSize;
+    line-height: $offerFeedbackLineHeight;
+    color: $whiteColor;
+}
+
+.feedbackInput{
+    width: 225px;
+    height: 35px;
+    border-radius: 40px;
+    border: none;
+}
+
+.feedbackInput::placeholder{
+    padding-top: 9px;
+    padding-left: 25px;
+    color: rgba(196, 196, 196, 1);
+    font-family: Roboto400;
+    font-size: $littleFontSize;
+    line-height: $littleLineHeight;
+}
+
+#envelope{
+    position: absolute;
+    right: 45px;
+}
+
+.feedbackButton{
+    width: 170px;
+    height: 35px;
+    background-color: transparent;
+    border: 2px solid $whiteColor;
+    border-radius: 40px;
+    font-size: $littleFontSize;
+    font-family: Roboto400;
+    color: $whiteColor;
+    line-height: $littleLineHeight;
+
+}
+
+// Feedback section style end
+
+
+// Footer style start
+
+.contacts{
+    width: 100%;
+    height: 121px;
+    display: flex;
+    align-items: center;
+    background-color: $whiteColor;
+}
+
+.contactsDiv{
+    width: $innerBlockWidth;
+    height: 45px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.socials{
+    width: 228px;
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+}
+
+.social{
+    width: 45px;
+    height: 45px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    background-image: url("../images/ellipse.svg");
+}
+
+.address{
+    width: 227px;
+    height: 16px;
+    position: absolute;
+    top:calc(50% - 8px);
+    left: calc(205px + 228px);
+}
+
+.addressText{
+    color: $blackColor;
+    font-family: Roboto400;
+    font-size: $littleFontSize;
+    line-height: $littleLineHeight;
+}
+
+.getInTouchFooter{
+    width: 337px;
+    height: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:space-between;
+    position: absolute;
+    right: 0;
+    top:calc(50% - 20px);
+}
+
+.additionalInformation{
+    width: 100%;
+    height: 64px;
+}
+
+.additionalInformationText{
+    width: $innerBlockWidth;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:space-between;
+    margin: 0 auto;
+}
+
+.additionalInformationTextP{
+    font-family: Roboto400;
+    font-size: 12px;
+    line-height: 14.06px;
+    color: rgba(130, 130, 130, 1);
+}
+
+
+// Footer style end
+
+@media screen and (max-width: 1128px){
+    @import "./laptop.scss";
+}
+
+@media screen and (max-width: 768px){
+    @import "./tablet.scss";
+}
+
+@media screen and (max-width: 576px){
+    @import "./mobile.scss";
+}
+
